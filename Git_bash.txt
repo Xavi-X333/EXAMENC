@@ -1,0 +1,199 @@
+
+edgar@Edmin041 MINGW64 ~
+$ cd programacion
+
+edgar@Edmin041 MINGW64 ~/programacion
+$ cd c
+
+edgar@Edmin041 MINGW64 ~/programacion/c
+$ cd "13 8"
+
+edgar@Edmin041 MINGW64 ~/programacion/c/13 8
+$ mkdir "EXAMENC"
+
+edgar@Edmin041 MINGW64 ~/programacion/c/13 8
+$ cd EXAMENC
+
+edgar@Edmin041 MINGW64 ~/programacion/c/13 8/EXAMENC
+$ git init
+Initialized empty Git repository in C:/Users/edgar/Programacion/C/13 8/EXAMENC/.git/
+
+edgar@Edmin041 MINGW64 ~/programacion/c/13 8/EXAMENC (main)
+$ code .
+
+edgar@Edmin041 MINGW64 ~/programacion/c/13 8/EXAMENC (main)
+$ git branch Equipo_1
+fatal: not a valid object name: 'main'
+
+edgar@Edmin041 MINGW64 ~/programacion/c/13 8/EXAMENC (main)
+$
+
+edgar@Edmin041 MINGW64 ~/programacion/c/13 8/EXAMENC (main)
+$ touch .gitignore
+
+edgar@Edmin041 MINGW64 ~/programacion/c/13 8/EXAMENC (main)
+$ git add .gitignore
+
+edgar@Edmin041 MINGW64 ~/programacion/c/13 8/EXAMENC (main)
+$ git commit -m "Primer Commit"
+[main (root-commit) 71e7cb3] Primer Commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 .gitignore
+
+edgar@Edmin041 MINGW64 ~/programacion/c/13 8/EXAMENC (main)
+$ git branch Equipo_1
+
+edgar@Edmin041 MINGW64 ~/programacion/c/13 8/EXAMENC (main)
+$ git switch Equipo_1
+Switched to branch 'Equipo_1'
+
+edgar@Edmin041 MINGW64 ~/programacion/c/13 8/EXAMENC (Equipo_1)
+$ touch Programa_1.c
+
+edgar@Edmin041 MINGW64 ~/programacion/c/13 8/EXAMENC (Equipo_1)
+$ git add Programa_1.c
+
+edgar@Edmin041 MINGW64 ~/programacion/c/13 8/EXAMENC (Equipo_1)
+$ git commit -m "Añadir Programa 1"
+[Equipo_1 095a5d5] Añadir Programa 1
+ 1 file changed, 5 insertions(+)
+ create mode 100644 Programa_1.c
+
+edgar@Edmin041 MINGW64 ~/programacion/c/13 8/EXAMENC (Equipo_1)
+$ git switch main
+Switched to branch 'main'
+
+edgar@Edmin041 MINGW64 ~/programacion/c/13 8/EXAMENC (main)
+$ git branch Equipo_2
+
+edgar@Edmin041 MINGW64 ~/programacion/c/13 8/EXAMENC (main)
+$ git switch Equipo_2
+Switched to branch 'Equipo_2'
+
+edgar@Edmin041 MINGW64 ~/programacion/c/13 8/EXAMENC (Equipo_2)
+$ touch Programa_2.c
+
+edgar@Edmin041 MINGW64 ~/programacion/c/13 8/EXAMENC (Equipo_2)
+$ git add Programa_2.c
+
+edgar@Edmin041 MINGW64 ~/programacion/c/13 8/EXAMENC (Equipo_2)
+$ git commit -m "Añadir Programa 2"
+[Equipo_2 bf0c566] Añadir Programa 2
+ 1 file changed, 5 insertions(+)
+ create mode 100644 Programa_2.c
+
+edgar@Edmin041 MINGW64 ~/programacion/c/13 8/EXAMENC (Equipo_2)
+$ git switch main
+Switched to branch 'main'
+
+edgar@Edmin041 MINGW64 ~/programacion/c/13 8/EXAMENC (main)
+$ git branch Equipo_3
+
+edgar@Edmin041 MINGW64 ~/programacion/c/13 8/EXAMENC (main)
+$ git switch Equipo_3
+Switched to branch 'Equipo_3'
+
+edgar@Edmin041 MINGW64 ~/programacion/c/13 8/EXAMENC (Equipo_3)
+$ touch Programa_3.c
+
+edgar@Edmin041 MINGW64 ~/programacion/c/13 8/EXAMENC (Equipo_3)
+$ git add Programa_3.c
+
+edgar@Edmin041 MINGW64 ~/programacion/c/13 8/EXAMENC (Equipo_3)
+$ git commit -m "Añadir Programa 3"
+[Equipo_3 5b9495b] Añadir Programa 3
+ 1 file changed, 5 insertions(+)
+ create mode 100644 Programa_3.c
+
+edgar@Edmin041 MINGW64 ~/programacion/c/13 8/EXAMENC (Equipo_3)
+$ git switch Equipo_1
+Switched to branch 'Equipo_1'
+
+edgar@Edmin041 MINGW64 ~/programacion/c/13 8/EXAMENC (Equipo_1)
+$ git switch Equipo_2
+Switched to branch 'Equipo_2'
+
+edgar@Edmin041 MINGW64 ~/programacion/c/13 8/EXAMENC (Equipo_2)
+$ git switch Equipo_3
+Switched to branch 'Equipo_3'
+
+edgar@Edmin041 MINGW64 ~/programacion/c/13 8/EXAMENC (Equipo_3)
+$ touch Crear_Archivo.c
+
+edgar@Edmin041 MINGW64 ~/programacion/c/13 8/EXAMENC (Equipo_3)
+$ touch Programa_3.c
+
+edgar@Edmin041 MINGW64 ~/programacion/c/13 8/EXAMENC (Equipo_3)
+$ code .
+
+edgar@Edmin041 MINGW64 ~/programacion/c/13 8/EXAMENC (Equipo_3)
+$ git add Lista_departamentos.txt
+
+edgar@Edmin041 MINGW64 ~/programacion/c/13 8/EXAMENC (Equipo_3)
+$ git commit -m "txt de los departementos"
+[Equipo_3 9db9a4f] txt de los departementos
+ 1 file changed, 3 insertions(+)
+ create mode 100644 Lista_departamentos.txt
+
+edgar@Edmin041 MINGW64 ~/programacion/c/13 8/EXAMENC (Equipo_3)
+$ git add Programa_3.c
+
+edgar@Edmin041 MINGW64 ~/programacion/c/13 8/EXAMENC (Equipo_3)
+$ git commit -m "Programa 3 Finalizado"
+[Equipo_3 fbe4f4a] Programa 3 Finalizado
+ 1 file changed, 54 insertions(+), 1 deletion(-)
+
+edgar@Edmin041 MINGW64 ~/programacion/c/13 8/EXAMENC (Equipo_3)
+$ git switch Equipo_2
+Switched to branch 'Equipo_2'
+
+edgar@Edmin041 MINGW64 ~/programacion/c/13 8/EXAMENC (Equipo_2)
+$ git status
+On branch Equipo_2
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .vscode/
+        Programa_3.exe
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+edgar@Edmin041 MINGW64 ~/programacion/c/13 8/EXAMENC (Equipo_2)
+$ git comando1
+* fbe4f4a (Equipo_3) Programa 3 Finalizado
+* 9db9a4f txt de los departementos
+* 5b9495b Añadir Programa 3
+| * bf0c566 (HEAD -> Equipo_2) Añadir Programa 2
+|/
+| * 095a5d5 (Equipo_1) Añadir Programa 1
+|/
+* 71e7cb3 (main) Primer Commit
+
+edgar@Edmin041 MINGW64 ~/programacion/c/13 8/EXAMENC (Equipo_2)
+$
+
+
+
+
+
+
+edgar@Edmin041 MINGW64 ~/programacion/c/13 8/EXAMENC (Equipo_2)
+$ git switch Equipo_3
+error: Your local changes to the following files would be overwritten by checkout:
+        Programa_2.c
+Please commit your changes or stash them before you switch branches.
+Aborting
+
+edgar@Edmin041 MINGW64 ~/programacion/c/13 8/EXAMENC (Equipo_2)
+$ git add Programa_2.c
+
+edgar@Edmin041 MINGW64 ~/programacion/c/13 8/EXAMENC (Equipo_2)
+$ git commit -m "Avance Programa 2"
+[Equipo_2 4353374] Avance Programa 2
+ 1 file changed, 76 insertions(+), 1 deletion(-)
+
+edgar@Edmin041 MINGW64 ~/programacion/c/13 8/EXAMENC (Equipo_2)
+$
+.
+
+	
+
