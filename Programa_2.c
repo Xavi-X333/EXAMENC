@@ -3,7 +3,7 @@
 struct estudiante {
     char nombre[40];
     char grado[40];
-    char departamento[40];
+    char departamento[20];
     int edad;
     int numero_carnet;
 };
@@ -18,9 +18,9 @@ int main() {
     int a = 1;
     int opcion;
     FILE *fp;
-    fp = fopen("Base de datos.txt", "w");
+    fp = fopen("Sistema_Colegio.txt", "w");
     while (a = 1) {
-        printf("Seleccione una opcion:\n 1) Registrar estudiante\n2) Buscar estudiante por carnet \n3) Lista de estudiantes por grado \n4) Editar un estudiante \n5) Salir");
+        printf("Seleccione una opcion:\n1) Registrar estudiante\n2) Buscar estudiante por carnet \n3) Lista de estudiantes por grado \n4) Editar un estudiante \n5) Salir\n>");
         scanf("%d", &opcion);
         if (opcion == 1) {
             // Registrar estudiante
@@ -39,7 +39,7 @@ int main() {
             printf("Programa Finalizado");
             break;
         } else {
-            printf("Opcion invalida. Intente de nuevo.");
+            printf("Opcion invalida, Intente de nuevo.");
         }
     }
     return 0;
@@ -69,12 +69,16 @@ int registrar_estudiante() {
 
 int buscar_estudiante() {
     struct estudiante A1;
+    FILE *fp;
 }
 
 int lista_por_grado() {
     struct estudiante A1;
+    FILE *fp;
+    
 }
 
 int editar_estudiante() {
     struct estudiante A1;
+    FILE *fp;
 }
